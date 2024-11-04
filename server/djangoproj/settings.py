@@ -29,9 +29,9 @@ SECRET_KEY =\
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost',
-'https://spassiri-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+    'https://spassiri-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 CSRF_TRUSTED_ORIGINS = [
-'https://spassiri-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+    'https://spassiri-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
@@ -62,11 +62,11 @@ ROOT_URLCONF = 'djangoproj.urls'
 
 TEMPLATES = [
     {
-    'BACKEND': 'django.template.backends.django.DjangoTemplates',
-    'DIRS': [
-        os.path.join(BASE_DIR, 'frontend/static'),
-        os.path.join(BASE_DIR, 'frontend/build'),
-        os.path.join(BASE_DIR, 'frontend/build/static'),],
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [
+            os.path.join(BASE_DIR, 'frontend/static'),
+            os.path.join(BASE_DIR, 'frontend/build'),
+            os.path.join(BASE_DIR, 'frontend/build/static'),],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
