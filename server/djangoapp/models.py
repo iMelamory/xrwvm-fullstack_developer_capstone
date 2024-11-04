@@ -51,7 +51,5 @@ class CarModel(models.Model):
         ])
     # Other fields as needed
 
-
     def __str__(self):
         return self.name  # Return the name as the string representation
-        
